@@ -1,5 +1,5 @@
-import { useContext, useDebugValue } from 'react';
-import { StoreContext } from '../store/StoreContext.jsx';
+import { useContext, useDebugValue } from "react";
+import { StoreContext } from "../store/StoreContext.jsx";
 
 /*
  * Custom hook to access the global store.
@@ -14,7 +14,7 @@ export function useGlobalStore() {
   );
 
   if (!contextValue)
-    throw new Error('useStore must be used within StoreProvider');
+    throw new Error("useStore must be used within StoreProvider");
 
   return contextValue;
 }
