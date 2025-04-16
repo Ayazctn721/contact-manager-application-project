@@ -3,7 +3,7 @@ export const initialState = () => ({
   todos: [],
   user: {
     isAuthenticated: true,
-    user_id: null,
+    user_id: 22,
   },
   contacts: [    {
     base64_image: "",

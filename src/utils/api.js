@@ -33,7 +33,7 @@ export async function createNewUser(user) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-    },
+      "X-Secret-Token": "qwerty"    },
     body: JSON.stringify(user),
   };
   const response = await fetch(`${BASE_URL}/api/users`, options);

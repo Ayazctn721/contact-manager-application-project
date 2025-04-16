@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { useParams, useNavigate } from "react-router";
+import { useParams, useNavigate } from "react-router-dom";
 import { fetchContacts } from "../../utils/api";
 import { useGlobalStore } from "../../hooks/useGlobalStore";
 import "./Profile.css";
